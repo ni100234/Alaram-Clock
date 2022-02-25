@@ -38,6 +38,7 @@ hourTime= Entry(root,textvariable = hour,bg = "sky blue",width = 4,font=(20)).pl
 minTime= Entry(root,textvariable = min,bg = "sky blue",width = 4,font=(20)).place(x=270,y=40)
 secTime = Entry(root,textvariable = sec,bg = "sky blue",width = 4,font=(20)).place(x=330,y=40)
  
-submit = Button(root,text = "Set Alarm",fg="Black",bg="light grey",width = 15,command = get_alarm_time,font=(20)).place(x =100,y=80)
+submit = Button(root,text = "Set Alarm",fg="Black",bg="light grey",width = 15,command = get_alarm_time,font=(20)).place(x =215,,y=80)
+                                                                                                                      
  
 root.mainloop()
